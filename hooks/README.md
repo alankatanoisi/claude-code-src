@@ -1,0 +1,96 @@
+# hooks
+
+Hook implementations for lifecycle, notifications, and permissions.
+
+## Subdirectories
+- `notifs/`: Feature area for notifs. See `notifs/README.md`.
+- `toolPermission/`: Feature area for tool permission. See `toolPermission/README.md`.
+
+## Files
+- `fileSuggestions.ts`: TypeScript module.
+- `renderPlaceholder.ts`: TypeScript module.
+- `unifiedSuggestions.ts`: TypeScript module.
+- `useAfterFirstRender.ts`: TypeScript module.
+- `useApiKeyVerification.ts`: TypeScript module.
+- `useArrowKeyHistory.tsx`: TypeScript/React component module.
+- `useAssistantHistory.ts`: TypeScript module.
+- `useAwaySummary.ts`: TypeScript module.
+- `useBackgroundTaskNavigation.ts`: TypeScript module.
+- `useBlink.ts`: TypeScript module.
+- `useCanUseTool.tsx`: TypeScript/React component module.
+- `useCancelRequest.ts`: TypeScript module.
+- `useChromeExtensionNotification.tsx`: TypeScript/React component module.
+- `useClaudeCodeHintRecommendation.tsx`: TypeScript/React component module.
+- `useClipboardImageHint.ts`: TypeScript module.
+- `useCommandKeybindings.tsx`: TypeScript/React component module.
+- `useCommandQueue.ts`: TypeScript module.
+- `useCopyOnSelect.ts`: TypeScript module.
+- `useDeferredHookMessages.ts`: TypeScript module.
+- `useDiffData.ts`: TypeScript module.
+- `useDiffInIDE.ts`: TypeScript module.
+- `useDirectConnect.ts`: TypeScript module.
+- `useDoublePress.ts`: TypeScript module.
+- `useDynamicConfig.ts`: TypeScript module.
+- `useElapsedTime.ts`: TypeScript module.
+- `useExitOnCtrlCD.ts`: TypeScript module.
+- `useExitOnCtrlCDWithKeybindings.ts`: TypeScript module.
+- `useFileHistorySnapshotInit.ts`: TypeScript module.
+- `useGlobalKeybindings.tsx`: TypeScript/React component module.
+- `useHistorySearch.ts`: TypeScript module.
+- `useIDEIntegration.tsx`: TypeScript/React component module.
+- `useIdeAtMentioned.ts`: TypeScript module.
+- `useIdeConnectionStatus.ts`: TypeScript module.
+- `useIdeLogging.ts`: TypeScript module.
+- `useIdeSelection.ts`: TypeScript module.
+- `useInboxPoller.ts`: TypeScript module.
+- `useInputBuffer.ts`: TypeScript module.
+- `useIssueFlagBanner.ts`: TypeScript module.
+- `useLogMessages.ts`: TypeScript module.
+- `useLspPluginRecommendation.tsx`: TypeScript/React component module.
+- `useMailboxBridge.ts`: TypeScript module.
+- `useMainLoopModel.ts`: TypeScript module.
+- `useManagePlugins.ts`: TypeScript module.
+- `useMemoryUsage.ts`: TypeScript module.
+- `useMergedClients.ts`: TypeScript module.
+- `useMergedCommands.ts`: TypeScript module.
+- `useMergedTools.ts`: TypeScript module.
+- `useMinDisplayTime.ts`: TypeScript module.
+- `useNotifyAfterTimeout.ts`: TypeScript module.
+- `useOfficialMarketplaceNotification.tsx`: TypeScript/React component module.
+- `usePasteHandler.ts`: TypeScript module.
+- `usePluginRecommendationBase.tsx`: TypeScript/React component module.
+- `usePrStatus.ts`: TypeScript module.
+- `usePromptSuggestion.ts`: TypeScript module.
+- `usePromptsFromClaudeInChrome.tsx`: TypeScript/React component module.
+- `useQueueProcessor.ts`: TypeScript module.
+- `useRemoteSession.ts`: TypeScript module.
+- `useReplBridge.tsx`: TypeScript/React component module.
+- `useSSHSession.ts`: TypeScript module.
+- `useScheduledTasks.ts`: TypeScript module.
+- `useSearchInput.ts`: TypeScript module.
+- `useSessionBackgrounding.ts`: TypeScript module.
+- `useSettings.ts`: TypeScript module.
+- `useSettingsChange.ts`: TypeScript module.
+- `useSkillImprovementSurvey.ts`: TypeScript module.
+- `useSkillsChange.ts`: TypeScript module.
+- `useSwarmInitialization.ts`: TypeScript module.
+- `useSwarmPermissionPoller.ts`: TypeScript module.
+- `useTaskListWatcher.ts`: TypeScript module.
+- `useTasksV2.ts`: TypeScript module.
+- `useTeammateViewAutoExit.ts`: TypeScript module.
+- `useTeleportResume.tsx`: TypeScript/React component module.
+- `useTerminalSize.ts`: TypeScript module.
+- `useTextInput.ts`: TypeScript module.
+- `useTimeout.ts`: TypeScript module.
+- `useTurnDiffs.ts`: TypeScript module.
+- `useTypeahead.tsx`: TypeScript/React component module.
+- `useUpdateNotification.ts`: TypeScript module.
+- `useVimInput.ts`: TypeScript module.
+- `useVirtualScroll.ts`: TypeScript module.
+- `useVoice.ts`: TypeScript module.
+- `useVoiceEnabled.ts`: TypeScript module.
+- `useVoiceIntegration.tsx`: TypeScript/React component module.
+
+## Notes
+- This README is part of a per-directory documentation set for the Claude Code codebase.
+- Refer to the repository root README for the high-level architecture map.

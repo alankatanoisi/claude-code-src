@@ -1,0 +1,340 @@
+# utils
+
+Shared utility helpers grouped by feature area.
+
+## Subdirectories
+- `background/`: Feature area for background. See `background/README.md`.
+- `bash/`: Feature area for bash. See `bash/README.md`.
+- `claudeInChrome/`: Feature area for claude in chrome. See `claudeInChrome/README.md`.
+- `computerUse/`: Feature area for computer use. See `computerUse/README.md`.
+- `deepLink/`: Feature area for deep link. See `deepLink/README.md`.
+- `dxt/`: Feature area for dxt. See `dxt/README.md`.
+- `filePersistence/`: Feature area for file persistence. See `filePersistence/README.md`.
+- `git/`: Feature area for git. See `git/README.md`.
+- `github/`: Feature area for github. See `github/README.md`.
+- `hooks/`: Hook implementations scoped to this feature area. See `hooks/README.md`.
+- `mcp/`: Model Context Protocol (MCP) integrations. See `mcp/README.md`.
+- `memory/`: Memory and recall feature helpers. See `memory/README.md`.
+- `messages/`: Feature area for messages. See `messages/README.md`.
+- `model/`: Feature area for model. See `model/README.md`.
+- `nativeInstaller/`: Feature area for native installer. See `nativeInstaller/README.md`.
+- `permissions/`: Permission checks and user consent helpers. See `permissions/README.md`.
+- `plugins/`: Plugin-specific modules and integrations. See `plugins/README.md`.
+- `powershell/`: Feature area for powershell. See `powershell/README.md`.
+- `processUserInput/`: Feature area for process user input. See `processUserInput/README.md`.
+- `sandbox/`: Feature area for sandbox. See `sandbox/README.md`.
+- `secureStorage/`: Feature area for secure storage. See `secureStorage/README.md`.
+- `settings/`: Feature area for settings. See `settings/README.md`.
+- `shell/`: Feature area for shell. See `shell/README.md`.
+- `skills/`: Skill-specific UI and helper modules. See `skills/README.md`.
+- `suggestions/`: Feature area for suggestions. See `suggestions/README.md`.
+- `swarm/`: Feature area for swarm. See `swarm/README.md`.
+- `task/`: Feature area for task. See `task/README.md`.
+- `telemetry/`: Feature area for telemetry. See `telemetry/README.md`.
+- `teleport/`: Feature area for teleport. See `teleport/README.md`.
+- `todo/`: Feature area for todo. See `todo/README.md`.
+- `ultraplan/`: Feature area for ultraplan. See `ultraplan/README.md`.
+
+## Files
+- `CircularBuffer.ts`: TypeScript module.
+- `Cursor.ts`: TypeScript module.
+- `QueryGuard.ts`: TypeScript module.
+- `Shell.ts`: TypeScript module.
+- `ShellCommand.ts`: TypeScript module.
+- `abortController.ts`: TypeScript module.
+- `activityManager.ts`: TypeScript module.
+- `advisor.ts`: TypeScript module.
+- `agentContext.ts`: TypeScript module.
+- `agentId.ts`: TypeScript module.
+- `agentSwarmsEnabled.ts`: TypeScript module.
+- `agenticSessionSearch.ts`: TypeScript module.
+- `analyzeContext.ts`: TypeScript module.
+- `ansiToPng.ts`: TypeScript module.
+- `ansiToSvg.ts`: TypeScript module.
+- `api.ts`: TypeScript module.
+- `apiPreconnect.ts`: TypeScript module.
+- `appleTerminalBackup.ts`: TypeScript module.
+- `argumentSubstitution.ts`: TypeScript module.
+- `array.ts`: TypeScript module.
+- `asciicast.ts`: TypeScript module.
+- `attachments.ts`: TypeScript module.
+- `attribution.ts`: TypeScript module.
+- `auth.ts`: TypeScript module.
+- `authFileDescriptor.ts`: TypeScript module.
+- `authPortable.ts`: TypeScript module.
+- `autoModeDenials.ts`: TypeScript module.
+- `autoRunIssue.tsx`: TypeScript/React component module.
+- `autoUpdater.ts`: TypeScript module.
+- `aws.ts`: TypeScript module.
+- `awsAuthStatusManager.ts`: TypeScript module.
+- `backgroundHousekeeping.ts`: TypeScript module.
+- `betas.ts`: TypeScript module.
+- `billing.ts`: TypeScript module.
+- `binaryCheck.ts`: TypeScript module.
+- `browser.ts`: TypeScript module.
+- `bufferedWriter.ts`: TypeScript module.
+- `bundledMode.ts`: TypeScript module.
+- `caCerts.ts`: TypeScript module.
+- `caCertsConfig.ts`: TypeScript module.
+- `cachePaths.ts`: TypeScript module.
+- `classifierApprovals.ts`: TypeScript module.
+- `classifierApprovalsHook.ts`: TypeScript module.
+- `claudeCodeHints.ts`: TypeScript module.
+- `claudeDesktop.ts`: TypeScript module.
+- `claudemd.ts`: TypeScript module.
+- `cleanup.ts`: TypeScript module.
+- `cleanupRegistry.ts`: TypeScript module.
+- `cliArgs.ts`: TypeScript module.
+- `cliHighlight.ts`: TypeScript module.
+- `codeIndexing.ts`: TypeScript module.
+- `collapseBackgroundBashNotifications.ts`: TypeScript module.
+- `collapseHookSummaries.ts`: TypeScript module.
+- `collapseReadSearch.ts`: TypeScript module.
+- `collapseTeammateShutdowns.ts`: TypeScript module.
+- `combinedAbortSignal.ts`: TypeScript module.
+- `commandLifecycle.ts`: TypeScript module.
+- `commitAttribution.ts`: TypeScript module.
+- `completionCache.ts`: TypeScript module.
+- `concurrentSessions.ts`: TypeScript module.
+- `config.ts`: TypeScript module.
+- `configConstants.ts`: TypeScript module.
+- `contentArray.ts`: TypeScript module.
+- `context.ts`: TypeScript module.
+- `contextAnalysis.ts`: TypeScript module.
+- `contextSuggestions.ts`: TypeScript module.
+- `controlMessageCompat.ts`: TypeScript module.
+- `conversationRecovery.ts`: TypeScript module.
+- `cron.ts`: TypeScript module.
+- `cronJitterConfig.ts`: TypeScript module.
+- `cronScheduler.ts`: TypeScript module.
+- `cronTasks.ts`: TypeScript module.
+- `cronTasksLock.ts`: TypeScript module.
+- `crossProjectResume.ts`: TypeScript module.
+- `crypto.ts`: TypeScript module.
+- `cwd.ts`: TypeScript module.
+- `debug.ts`: TypeScript module.
+- `debugFilter.ts`: TypeScript module.
+- `desktopDeepLink.ts`: TypeScript module.
+- `detectRepository.ts`: TypeScript module.
+- `diagLogs.ts`: TypeScript module.
+- `diff.ts`: TypeScript module.
+- `directMemberMessage.ts`: TypeScript module.
+- `displayTags.ts`: TypeScript module.
+- `doctorContextWarnings.ts`: TypeScript module.
+- `doctorDiagnostic.ts`: TypeScript module.
+- `earlyInput.ts`: TypeScript module.
+- `editor.ts`: TypeScript module.
+- `effort.ts`: TypeScript module.
+- `embeddedTools.ts`: TypeScript module.
+- `env.ts`: TypeScript module.
+- `envDynamic.ts`: TypeScript module.
+- `envUtils.ts`: TypeScript module.
+- `envValidation.ts`: TypeScript module.
+- `errorLogSink.ts`: TypeScript module.
+- `errors.ts`: TypeScript module.
+- `exampleCommands.ts`: TypeScript module.
+- `execFileNoThrow.ts`: TypeScript module.
+- `execFileNoThrowPortable.ts`: TypeScript module.
+- `execSyncWrapper.ts`: TypeScript module.
+- `exportRenderer.tsx`: TypeScript/React component module.
+- `extraUsage.ts`: TypeScript module.
+- `fastMode.ts`: TypeScript module.
+- `file.ts`: TypeScript module.
+- `fileHistory.ts`: TypeScript module.
+- `fileOperationAnalytics.ts`: TypeScript module.
+- `fileRead.ts`: TypeScript module.
+- `fileReadCache.ts`: TypeScript module.
+- `fileStateCache.ts`: TypeScript module.
+- `findExecutable.ts`: TypeScript module.
+- `fingerprint.ts`: TypeScript module.
+- `forkedAgent.ts`: TypeScript module.
+- `format.ts`: TypeScript module.
+- `formatBriefTimestamp.ts`: TypeScript module.
+- `fpsTracker.ts`: TypeScript module.
+- `frontmatterParser.ts`: TypeScript module.
+- `fsOperations.ts`: TypeScript module.
+- `fullscreen.ts`: TypeScript module.
+- `generatedFiles.ts`: TypeScript module.
+- `generators.ts`: TypeScript module.
+- `genericProcessUtils.ts`: TypeScript module.
+- `getWorktreePaths.ts`: TypeScript module.
+- `getWorktreePathsPortable.ts`: TypeScript module.
+- `ghPrStatus.ts`: TypeScript module.
+- `git.ts`: TypeScript module.
+- `gitDiff.ts`: TypeScript module.
+- `gitSettings.ts`: TypeScript module.
+- `githubRepoPathMapping.ts`: TypeScript module.
+- `glob.ts`: TypeScript module.
+- `gracefulShutdown.ts`: TypeScript module.
+- `groupToolUses.ts`: TypeScript module.
+- `handlePromptSubmit.ts`: TypeScript module.
+- `hash.ts`: TypeScript module.
+- `headlessProfiler.ts`: TypeScript module.
+- `heapDumpService.ts`: TypeScript module.
+- `heatmap.ts`: TypeScript module.
+- `highlightMatch.tsx`: TypeScript/React component module.
+- `hooks.ts`: TypeScript module.
+- `horizontalScroll.ts`: TypeScript module.
+- `http.ts`: TypeScript module.
+- `hyperlink.ts`: TypeScript module.
+- `iTermBackup.ts`: TypeScript module.
+- `ide.ts`: TypeScript module.
+- `idePathConversion.ts`: TypeScript module.
+- `idleTimeout.ts`: TypeScript module.
+- `imagePaste.ts`: TypeScript module.
+- `imageResizer.ts`: TypeScript module.
+- `imageStore.ts`: TypeScript module.
+- `imageValidation.ts`: TypeScript module.
+- `immediateCommand.ts`: TypeScript module.
+- `inProcessTeammateHelpers.ts`: TypeScript module.
+- `ink.ts`: TypeScript module.
+- `intl.ts`: TypeScript module.
+- `jetbrains.ts`: TypeScript module.
+- `json.ts`: TypeScript module.
+- `jsonRead.ts`: TypeScript module.
+- `keyboardShortcuts.ts`: TypeScript module.
+- `lazySchema.ts`: TypeScript module.
+- `listSessionsImpl.ts`: TypeScript module.
+- `localInstaller.ts`: TypeScript module.
+- `lockfile.ts`: TypeScript module.
+- `log.ts`: TypeScript module.
+- `logoV2Utils.ts`: TypeScript module.
+- `mailbox.ts`: TypeScript module.
+- `managedEnv.ts`: TypeScript module.
+- `managedEnvConstants.ts`: TypeScript module.
+- `markdown.ts`: TypeScript module.
+- `markdownConfigLoader.ts`: TypeScript module.
+- `mcpInstructionsDelta.ts`: TypeScript module.
+- `mcpOutputStorage.ts`: TypeScript module.
+- `mcpValidation.ts`: TypeScript module.
+- `mcpWebSocketTransport.ts`: TypeScript module.
+- `memoize.ts`: TypeScript module.
+- `memoryFileDetection.ts`: TypeScript module.
+- `messagePredicates.ts`: TypeScript module.
+- `messageQueueManager.ts`: TypeScript module.
+- `messages.ts`: TypeScript module.
+- `modelCost.ts`: TypeScript module.
+- `modifiers.ts`: TypeScript module.
+- `mtls.ts`: TypeScript module.
+- `notebook.ts`: TypeScript module.
+- `objectGroupBy.ts`: TypeScript module.
+- `pasteStore.ts`: TypeScript module.
+- `path.ts`: TypeScript module.
+- `pdf.ts`: TypeScript module.
+- `pdfUtils.ts`: TypeScript module.
+- `peerAddress.ts`: TypeScript module.
+- `planModeV2.ts`: TypeScript module.
+- `plans.ts`: TypeScript module.
+- `platform.ts`: TypeScript module.
+- `preflightChecks.tsx`: TypeScript/React component module.
+- `privacyLevel.ts`: TypeScript module.
+- `process.ts`: TypeScript module.
+- `profilerBase.ts`: TypeScript module.
+- `promptCategory.ts`: TypeScript module.
+- `promptEditor.ts`: TypeScript module.
+- `promptShellExecution.ts`: TypeScript module.
+- `proxy.ts`: TypeScript module.
+- `queryContext.ts`: TypeScript module.
+- `queryHelpers.ts`: TypeScript module.
+- `queryProfiler.ts`: TypeScript module.
+- `queueProcessor.ts`: TypeScript module.
+- `readEditContext.ts`: TypeScript module.
+- `readFileInRange.ts`: TypeScript module.
+- `releaseNotes.ts`: TypeScript module.
+- `renderOptions.ts`: TypeScript module.
+- `ripgrep.ts`: TypeScript module.
+- `sanitization.ts`: TypeScript module.
+- `screenshotClipboard.ts`: TypeScript module.
+- `sdkEventQueue.ts`: TypeScript module.
+- `semanticBoolean.ts`: TypeScript module.
+- `semanticNumber.ts`: TypeScript module.
+- `semver.ts`: TypeScript module.
+- `sequential.ts`: TypeScript module.
+- `sessionActivity.ts`: TypeScript module.
+- `sessionEnvVars.ts`: TypeScript module.
+- `sessionEnvironment.ts`: TypeScript module.
+- `sessionFileAccessHooks.ts`: TypeScript module.
+- `sessionIngressAuth.ts`: TypeScript module.
+- `sessionRestore.ts`: TypeScript module.
+- `sessionStart.ts`: TypeScript module.
+- `sessionState.ts`: TypeScript module.
+- `sessionStorage.ts`: TypeScript module.
+- `sessionStoragePortable.ts`: TypeScript module.
+- `sessionTitle.ts`: TypeScript module.
+- `sessionUrl.ts`: TypeScript module.
+- `set.ts`: TypeScript module.
+- `shellConfig.ts`: TypeScript module.
+- `sideQuery.ts`: TypeScript module.
+- `sideQuestion.ts`: TypeScript module.
+- `signal.ts`: TypeScript module.
+- `sinks.ts`: TypeScript module.
+- `slashCommandParsing.ts`: TypeScript module.
+- `sleep.ts`: TypeScript module.
+- `sliceAnsi.ts`: TypeScript module.
+- `slowOperations.ts`: TypeScript module.
+- `standaloneAgent.ts`: TypeScript module.
+- `startupProfiler.ts`: TypeScript module.
+- `staticRender.tsx`: TypeScript/React component module.
+- `stats.ts`: TypeScript module.
+- `statsCache.ts`: TypeScript module.
+- `status.tsx`: TypeScript/React component module.
+- `statusNoticeDefinitions.tsx`: TypeScript/React component module.
+- `statusNoticeHelpers.ts`: TypeScript module.
+- `stream.ts`: TypeScript module.
+- `streamJsonStdoutGuard.ts`: TypeScript module.
+- `streamlinedTransform.ts`: TypeScript module.
+- `stringUtils.ts`: TypeScript module.
+- `subprocessEnv.ts`: TypeScript module.
+- `systemDirectories.ts`: TypeScript module.
+- `systemPrompt.ts`: TypeScript module.
+- `systemPromptType.ts`: TypeScript module.
+- `systemTheme.ts`: TypeScript module.
+- `taggedId.ts`: TypeScript module.
+- `tasks.ts`: TypeScript module.
+- `teamDiscovery.ts`: TypeScript module.
+- `teamMemoryOps.ts`: TypeScript module.
+- `teammate.ts`: TypeScript module.
+- `teammateContext.ts`: TypeScript module.
+- `teammateMailbox.ts`: TypeScript module.
+- `telemetryAttributes.ts`: TypeScript module.
+- `teleport.tsx`: TypeScript/React component module.
+- `tempfile.ts`: TypeScript module.
+- `terminal.ts`: TypeScript module.
+- `terminalPanel.ts`: TypeScript module.
+- `textHighlighting.ts`: TypeScript module.
+- `theme.ts`: TypeScript module.
+- `thinking.ts`: TypeScript module.
+- `timeouts.ts`: TypeScript module.
+- `tmuxSocket.ts`: TypeScript module.
+- `tokenBudget.ts`: TypeScript module.
+- `tokens.ts`: TypeScript module.
+- `toolErrors.ts`: TypeScript module.
+- `toolPool.ts`: TypeScript module.
+- `toolResultStorage.ts`: TypeScript module.
+- `toolSchemaCache.ts`: TypeScript module.
+- `toolSearch.ts`: TypeScript module.
+- `transcriptSearch.ts`: TypeScript module.
+- `treeify.ts`: TypeScript module.
+- `truncate.ts`: TypeScript module.
+- `unaryLogging.ts`: TypeScript module.
+- `undercover.ts`: TypeScript module.
+- `user.ts`: TypeScript module.
+- `userAgent.ts`: TypeScript module.
+- `userPromptKeywords.ts`: TypeScript module.
+- `uuid.ts`: TypeScript module.
+- `warningHandler.ts`: TypeScript module.
+- `which.ts`: TypeScript module.
+- `windowsPaths.ts`: TypeScript module.
+- `withResolvers.ts`: TypeScript module.
+- `words.ts`: TypeScript module.
+- `workloadContext.ts`: TypeScript module.
+- `worktree.ts`: TypeScript module.
+- `worktreeModeEnabled.ts`: TypeScript module.
+- `xdg.ts`: TypeScript module.
+- `xml.ts`: TypeScript module.
+- `yaml.ts`: TypeScript module.
+- `zodToJsonSchema.ts`: TypeScript module.
+
+## Notes
+- This README is part of a per-directory documentation set for the Claude Code codebase.
+- Refer to the repository root README for the high-level architecture map.

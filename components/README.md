@@ -1,0 +1,155 @@
+# components
+
+Reusable UI components (Ink/React) and related assets.
+
+## Subdirectories
+- `ClaudeCodeHint/`: Feature area for claude code hint. See `ClaudeCodeHint/README.md`.
+- `CustomSelect/`: Feature area for custom select. See `CustomSelect/README.md`.
+- `DesktopUpsell/`: Feature area for desktop upsell. See `DesktopUpsell/README.md`.
+- `FeedbackSurvey/`: Feature area for feedback survey. See `FeedbackSurvey/README.md`.
+- `HelpV2/`: Feature area for help v2. See `HelpV2/README.md`.
+- `HighlightedCode/`: Feature area for highlighted code. See `HighlightedCode/README.md`.
+- `LogoV2/`: Feature area for logo v2. See `LogoV2/README.md`.
+- `LspRecommendation/`: Feature area for lsp recommendation. See `LspRecommendation/README.md`.
+- `ManagedSettingsSecurityDialog/`: Feature area for managed settings security dialog. See `ManagedSettingsSecurityDialog/README.md`.
+- `Passes/`: Feature area for passes. See `Passes/README.md`.
+- `PromptInput/`: Feature area for prompt input. See `PromptInput/README.md`.
+- `Settings/`: Feature area for settings. See `Settings/README.md`.
+- `Spinner/`: Feature area for spinner. See `Spinner/README.md`.
+- `StructuredDiff/`: Feature area for structured diff. See `StructuredDiff/README.md`.
+- `TrustDialog/`: Feature area for trust dialog. See `TrustDialog/README.md`.
+- `agents/`: Agent-related helpers and UI components. See `agents/README.md`.
+- `design-system/`: Feature area for design system. See `design-system/README.md`.
+- `diff/`: Feature area for diff. See `diff/README.md`.
+- `grove/`: Feature area for grove. See `grove/README.md`.
+- `hooks/`: Hook implementations scoped to this feature area. See `hooks/README.md`.
+- `mcp/`: Model Context Protocol (MCP) integrations. See `mcp/README.md`.
+- `memory/`: Memory and recall feature helpers. See `memory/README.md`.
+- `messages/`: Feature area for messages. See `messages/README.md`.
+- `permissions/`: Permission checks and user consent helpers. See `permissions/README.md`.
+- `sandbox/`: Feature area for sandbox. See `sandbox/README.md`.
+- `shell/`: Feature area for shell. See `shell/README.md`.
+- `skills/`: Skill-specific UI and helper modules. See `skills/README.md`.
+- `tasks/`: Task-specific UI and helper modules. See `tasks/README.md`.
+- `teams/`: Feature area for teams. See `teams/README.md`.
+- `ui/`: UI presentation components and styling helpers. See `ui/README.md`.
+- `wizard/`: Feature area for wizard. See `wizard/README.md`.
+
+## Files
+- `AgentProgressLine.tsx`: TypeScript/React component module.
+- `App.tsx`: TypeScript/React component module.
+- `ApproveApiKey.tsx`: TypeScript/React component module.
+- `AutoModeOptInDialog.tsx`: TypeScript/React component module.
+- `AutoUpdater.tsx`: TypeScript/React component module.
+- `AutoUpdaterWrapper.tsx`: TypeScript/React component module.
+- `AwsAuthStatusBox.tsx`: TypeScript/React component module.
+- `BaseTextInput.tsx`: TypeScript/React component module.
+- `BashModeProgress.tsx`: TypeScript/React component module.
+- `BridgeDialog.tsx`: TypeScript/React component module.
+- `BypassPermissionsModeDialog.tsx`: TypeScript/React component module.
+- `ChannelDowngradeDialog.tsx`: TypeScript/React component module.
+- `ClaudeInChromeOnboarding.tsx`: TypeScript/React component module.
+- `ClaudeMdExternalIncludesDialog.tsx`: TypeScript/React component module.
+- `ClickableImageRef.tsx`: TypeScript/React component module.
+- `CompactSummary.tsx`: TypeScript/React component module.
+- `ConfigurableShortcutHint.tsx`: TypeScript/React component module.
+- `ConsoleOAuthFlow.tsx`: TypeScript/React component module.
+- `ContextSuggestions.tsx`: TypeScript/React component module.
+- `ContextVisualization.tsx`: TypeScript/React component module.
+- `CoordinatorAgentStatus.tsx`: TypeScript/React component module.
+- `CostThresholdDialog.tsx`: TypeScript/React component module.
+- `CtrlOToExpand.tsx`: TypeScript/React component module.
+- `DesktopHandoff.tsx`: TypeScript/React component module.
+- `DevBar.tsx`: TypeScript/React component module.
+- `DevChannelsDialog.tsx`: TypeScript/React component module.
+- `DiagnosticsDisplay.tsx`: TypeScript/React component module.
+- `EffortCallout.tsx`: TypeScript/React component module.
+- `EffortIndicator.ts`: TypeScript module.
+- `ExitFlow.tsx`: TypeScript/React component module.
+- `ExportDialog.tsx`: TypeScript/React component module.
+- `FallbackToolUseErrorMessage.tsx`: TypeScript/React component module.
+- `FallbackToolUseRejectedMessage.tsx`: TypeScript/React component module.
+- `FastIcon.tsx`: TypeScript/React component module.
+- `Feedback.tsx`: TypeScript/React component module.
+- `FileEditToolDiff.tsx`: TypeScript/React component module.
+- `FileEditToolUpdatedMessage.tsx`: TypeScript/React component module.
+- `FileEditToolUseRejectedMessage.tsx`: TypeScript/React component module.
+- `FilePathLink.tsx`: TypeScript/React component module.
+- `FullscreenLayout.tsx`: TypeScript/React component module.
+- `GlobalSearchDialog.tsx`: TypeScript/React component module.
+- `HighlightedCode.tsx`: TypeScript/React component module.
+- `HistorySearchDialog.tsx`: TypeScript/React component module.
+- `IdeAutoConnectDialog.tsx`: TypeScript/React component module.
+- `IdeOnboardingDialog.tsx`: TypeScript/React component module.
+- `IdeStatusIndicator.tsx`: TypeScript/React component module.
+- `IdleReturnDialog.tsx`: TypeScript/React component module.
+- `InterruptedByUser.tsx`: TypeScript/React component module.
+- `InvalidConfigDialog.tsx`: TypeScript/React component module.
+- `InvalidSettingsDialog.tsx`: TypeScript/React component module.
+- `KeybindingWarnings.tsx`: TypeScript/React component module.
+- `LanguagePicker.tsx`: TypeScript/React component module.
+- `LogSelector.tsx`: TypeScript/React component module.
+- `MCPServerApprovalDialog.tsx`: TypeScript/React component module.
+- `MCPServerDesktopImportDialog.tsx`: TypeScript/React component module.
+- `MCPServerDialogCopy.tsx`: TypeScript/React component module.
+- `MCPServerMultiselectDialog.tsx`: TypeScript/React component module.
+- `Markdown.tsx`: TypeScript/React component module.
+- `MarkdownTable.tsx`: TypeScript/React component module.
+- `MemoryUsageIndicator.tsx`: TypeScript/React component module.
+- `Message.tsx`: TypeScript/React component module.
+- `MessageModel.tsx`: TypeScript/React component module.
+- `MessageResponse.tsx`: TypeScript/React component module.
+- `MessageRow.tsx`: TypeScript/React component module.
+- `MessageSelector.tsx`: TypeScript/React component module.
+- `MessageTimestamp.tsx`: TypeScript/React component module.
+- `Messages.tsx`: TypeScript/React component module.
+- `ModelPicker.tsx`: TypeScript/React component module.
+- `NativeAutoUpdater.tsx`: TypeScript/React component module.
+- `NotebookEditToolUseRejectedMessage.tsx`: TypeScript/React component module.
+- `OffscreenFreeze.tsx`: TypeScript/React component module.
+- `Onboarding.tsx`: TypeScript/React component module.
+- `OutputStylePicker.tsx`: TypeScript/React component module.
+- `PackageManagerAutoUpdater.tsx`: TypeScript/React component module.
+- `PrBadge.tsx`: TypeScript/React component module.
+- `PressEnterToContinue.tsx`: TypeScript/React component module.
+- `QuickOpenDialog.tsx`: TypeScript/React component module.
+- `RemoteCallout.tsx`: TypeScript/React component module.
+- `RemoteEnvironmentDialog.tsx`: TypeScript/React component module.
+- `ResumeTask.tsx`: TypeScript/React component module.
+- `SandboxViolationExpandedView.tsx`: TypeScript/React component module.
+- `ScrollKeybindingHandler.tsx`: TypeScript/React component module.
+- `SearchBox.tsx`: TypeScript/React component module.
+- `SentryErrorBoundary.ts`: TypeScript module.
+- `SessionBackgroundHint.tsx`: TypeScript/React component module.
+- `SessionPreview.tsx`: TypeScript/React component module.
+- `ShowInIDEPrompt.tsx`: TypeScript/React component module.
+- `SkillImprovementSurvey.tsx`: TypeScript/React component module.
+- `Spinner.tsx`: TypeScript/React component module.
+- `Stats.tsx`: TypeScript/React component module.
+- `StatusLine.tsx`: TypeScript/React component module.
+- `StatusNotices.tsx`: TypeScript/React component module.
+- `StructuredDiff.tsx`: TypeScript/React component module.
+- `StructuredDiffList.tsx`: TypeScript/React component module.
+- `TagTabs.tsx`: TypeScript/React component module.
+- `TaskListV2.tsx`: TypeScript/React component module.
+- `TeammateViewHeader.tsx`: TypeScript/React component module.
+- `TeleportError.tsx`: TypeScript/React component module.
+- `TeleportProgress.tsx`: TypeScript/React component module.
+- `TeleportRepoMismatchDialog.tsx`: TypeScript/React component module.
+- `TeleportResumeWrapper.tsx`: TypeScript/React component module.
+- `TeleportStash.tsx`: TypeScript/React component module.
+- `TextInput.tsx`: TypeScript/React component module.
+- `ThemePicker.tsx`: TypeScript/React component module.
+- `ThinkingToggle.tsx`: TypeScript/React component module.
+- `TokenWarning.tsx`: TypeScript/React component module.
+- `ToolUseLoader.tsx`: TypeScript/React component module.
+- `ValidationErrorsList.tsx`: TypeScript/React component module.
+- `VimTextInput.tsx`: TypeScript/React component module.
+- `VirtualMessageList.tsx`: TypeScript/React component module.
+- `WorkflowMultiselectDialog.tsx`: TypeScript/React component module.
+- `WorktreeExitDialog.tsx`: TypeScript/React component module.
+- `messageActions.tsx`: TypeScript/React component module.
+
+## Notes
+- This README is part of a per-directory documentation set for the Claude Code codebase.
+- Refer to the repository root README for the high-level architecture map.

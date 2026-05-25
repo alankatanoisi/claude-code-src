@@ -1,0 +1,112 @@
+# commands
+
+Command implementations and registrations for the CLI.
+
+## Subdirectories
+- `add-dir/`: Feature area for add dir. See `add-dir/README.md`.
+- `agents/`: Agent-related helpers and UI components. See `agents/README.md`.
+- `ant-trace/`: Feature area for ant trace. See `ant-trace/README.md`.
+- `autofix-pr/`: Feature area for autofix pr. See `autofix-pr/README.md`.
+- `backfill-sessions/`: Feature area for backfill sessions. See `backfill-sessions/README.md`.
+- `branch/`: Feature area for branch. See `branch/README.md`.
+- `break-cache/`: Feature area for break cache. See `break-cache/README.md`.
+- `bridge/`: Feature area for bridge. See `bridge/README.md`.
+- `btw/`: Feature area for btw. See `btw/README.md`.
+- `bughunter/`: Feature area for bughunter. See `bughunter/README.md`.
+- `chrome/`: Feature area for chrome. See `chrome/README.md`.
+- `clear/`: Feature area for clear. See `clear/README.md`.
+- `color/`: Feature area for color. See `color/README.md`.
+- `compact/`: Feature area for compact. See `compact/README.md`.
+- `config/`: Feature area for config. See `config/README.md`.
+- `context/`: Feature area for context. See `context/README.md`.
+- `copy/`: Feature area for copy. See `copy/README.md`.
+- `cost/`: Feature area for cost. See `cost/README.md`.
+- `ctx_viz/`: Feature area for ctx viz. See `ctx_viz/README.md`.
+- `debug-tool-call/`: Feature area for debug tool call. See `debug-tool-call/README.md`.
+- `desktop/`: Feature area for desktop. See `desktop/README.md`.
+- `diff/`: Feature area for diff. See `diff/README.md`.
+- `doctor/`: Feature area for doctor. See `doctor/README.md`.
+- `effort/`: Feature area for effort. See `effort/README.md`.
+- `env/`: Feature area for env. See `env/README.md`.
+- `exit/`: Feature area for exit. See `exit/README.md`.
+- `export/`: Feature area for export. See `export/README.md`.
+- `extra-usage/`: Feature area for extra usage. See `extra-usage/README.md`.
+- `fast/`: Feature area for fast. See `fast/README.md`.
+- `feedback/`: Feature area for feedback. See `feedback/README.md`.
+- `files/`: Feature area for files. See `files/README.md`.
+- `good-claude/`: Feature area for good claude. See `good-claude/README.md`.
+- `heapdump/`: Feature area for heapdump. See `heapdump/README.md`.
+- `help/`: Feature area for help. See `help/README.md`.
+- `hooks/`: Hook implementations scoped to this feature area. See `hooks/README.md`.
+- `ide/`: Feature area for ide. See `ide/README.md`.
+- `install-github-app/`: Feature area for install github app. See `install-github-app/README.md`.
+- `install-slack-app/`: Feature area for install slack app. See `install-slack-app/README.md`.
+- `issue/`: Feature area for issue. See `issue/README.md`.
+- `keybindings/`: Feature area for keybindings. See `keybindings/README.md`.
+- `login/`: Feature area for login. See `login/README.md`.
+- `logout/`: Feature area for logout. See `logout/README.md`.
+- `mcp/`: Model Context Protocol (MCP) integrations. See `mcp/README.md`.
+- `memory/`: Memory and recall feature helpers. See `memory/README.md`.
+- `mobile/`: Feature area for mobile. See `mobile/README.md`.
+- `mock-limits/`: Feature area for mock limits. See `mock-limits/README.md`.
+- `model/`: Feature area for model. See `model/README.md`.
+- `oauth-refresh/`: Feature area for oauth refresh. See `oauth-refresh/README.md`.
+- `onboarding/`: Feature area for onboarding. See `onboarding/README.md`.
+- `output-style/`: Feature area for output style. See `output-style/README.md`.
+- `passes/`: Feature area for passes. See `passes/README.md`.
+- `perf-issue/`: Feature area for perf issue. See `perf-issue/README.md`.
+- `permissions/`: Permission checks and user consent helpers. See `permissions/README.md`.
+- `plan/`: Feature area for plan. See `plan/README.md`.
+- `plugin/`: Feature area for plugin. See `plugin/README.md`.
+- `pr_comments/`: Feature area for pr comments. See `pr_comments/README.md`.
+- `privacy-settings/`: Feature area for privacy settings. See `privacy-settings/README.md`.
+- `rate-limit-options/`: Feature area for rate limit options. See `rate-limit-options/README.md`.
+- `release-notes/`: Feature area for release notes. See `release-notes/README.md`.
+- `reload-plugins/`: Feature area for reload plugins. See `reload-plugins/README.md`.
+- `remote-env/`: Feature area for remote env. See `remote-env/README.md`.
+- `remote-setup/`: Feature area for remote setup. See `remote-setup/README.md`.
+- `rename/`: Feature area for rename. See `rename/README.md`.
+- `reset-limits/`: Feature area for reset limits. See `reset-limits/README.md`.
+- `resume/`: Feature area for resume. See `resume/README.md`.
+- `review/`: Feature area for review. See `review/README.md`.
+- `rewind/`: Feature area for rewind. See `rewind/README.md`.
+- `sandbox-toggle/`: Feature area for sandbox toggle. See `sandbox-toggle/README.md`.
+- `session/`: Feature area for session. See `session/README.md`.
+- `share/`: Feature area for share. See `share/README.md`.
+- `skills/`: Skill-specific UI and helper modules. See `skills/README.md`.
+- `stats/`: Feature area for stats. See `stats/README.md`.
+- `status/`: Feature area for status. See `status/README.md`.
+- `stickers/`: Feature area for stickers. See `stickers/README.md`.
+- `summary/`: Feature area for summary. See `summary/README.md`.
+- `tag/`: Feature area for tag. See `tag/README.md`.
+- `tasks/`: Task-specific UI and helper modules. See `tasks/README.md`.
+- `teleport/`: Feature area for teleport. See `teleport/README.md`.
+- `terminalSetup/`: Feature area for terminal setup. See `terminalSetup/README.md`.
+- `theme/`: Feature area for theme. See `theme/README.md`.
+- `thinkback/`: Feature area for thinkback. See `thinkback/README.md`.
+- `thinkback-play/`: Feature area for thinkback play. See `thinkback-play/README.md`.
+- `upgrade/`: Feature area for upgrade. See `upgrade/README.md`.
+- `usage/`: Feature area for usage. See `usage/README.md`.
+- `vim/`: Feature area for vim. See `vim/README.md`.
+- `voice/`: Feature area for voice. See `voice/README.md`.
+
+## Files
+- `advisor.ts`: TypeScript module.
+- `bridge-kick.ts`: TypeScript module.
+- `brief.ts`: TypeScript module.
+- `commit-push-pr.ts`: TypeScript module.
+- `commit.ts`: TypeScript module.
+- `createMovedToPluginCommand.ts`: TypeScript module.
+- `init-verifiers.ts`: TypeScript module.
+- `init.ts`: TypeScript module.
+- `insights.ts`: TypeScript module.
+- `install.tsx`: TypeScript/React component module.
+- `review.ts`: TypeScript module.
+- `security-review.ts`: TypeScript module.
+- `statusline.tsx`: TypeScript/React component module.
+- `ultraplan.tsx`: TypeScript/React component module.
+- `version.ts`: TypeScript module.
+
+## Notes
+- This README is part of a per-directory documentation set for the Claude Code codebase.
+- Refer to the repository root README for the high-level architecture map.
